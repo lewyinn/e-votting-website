@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Swal from 'sweetalert2';
+import Link from 'next/link';
 
 export default function Register() {
     const [name, setName] = useState('');
@@ -86,7 +87,7 @@ export default function Register() {
                     </button>
                 </form>
                 <p className="text-center text-[var(--color-neutral)] mt-4">
-                    Sudah punya akun? <a href="/" className="text-[var(--color-secondary)] hover:underline">Login</a>
+                    Sudah punya akun? <Link href="/" className="text-[var(--color-secondary)] hover:underline">Login</Link>
                 </p>
             </div>
         </div>

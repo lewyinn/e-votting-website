@@ -2,15 +2,17 @@
 import { useEffect } from 'react';
 
 export default function Modal({ isOpen, onClose, onConfirm, title, message }) {
-    if (!isOpen) return null;
-
     useEffect(() => {
+        if (!isOpen) return; 
+
         const handleEscape = (e) => {
             if (e.key === 'Escape') onClose();
         };
         document.addEventListener('keydown', handleEscape);
         return () => document.removeEventListener('keydown', handleEscape);
-    }, [onClose]);
+    }, [isOpen, onClose]);
+
+    if (!isOpen) return null;
 
     return (
         <div className="fixed inset-0 bg-black/30 backdrop-blur-xs flex items-center justify-center z-50 animate-[fade-in_0.5s_ease-out]">
