@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Calon Pemilihan Ketua OSIS 2025",
+      "startDate": "2025-06-17",
+      "endDate": "2025-06-19",
+      "status": "active"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "$2b$10$pLORYmJPOY3.mUblTvpq5OH3up11eaYWpwWAloMYJQtseuwEA2MPS",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "email": "user@gmail.com",
+      "password": "$2b$10$Qn1Pox2/S5V.mCsh129r6uEwUU/vw4E2zQRIHpRc5hA34q5wEYBeO",
+      "role": "user"
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "name": "Kandidat 1",
+      "description": "Deksripsi Kandidat\n\nVisi:\n1.\n2.\n\nMisi:\n1.\n2.",
+      "eventId": 1
+    },
+    {
+      "id": 2,
+      "name": "Kandidat 2",
+      "description": "Deksripsi Kandidat\n\nVisi:\n1.\n2.\n\nMisi:\n1.\n2.",
+      "eventId": 1
+    }
+  ],
+  "votes": []
+}
