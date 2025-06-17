@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Voting App Banner](https://via.placeholder.com/1200x400/1E40AF/FFFFFF?text=🗳️+Modern+Voting+Platform)
+![Voting App Banner](https://github.com/user-attachments/assets/8858185c-3ecf-4f08-942a-a59b1ef56dcf)
 
 **A modern, secure, and responsive web voting platform built with Next.js & Tailwind CSS**
 
